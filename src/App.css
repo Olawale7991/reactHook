@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin-left: 15rem;
+}
+
+.filter {
+  margin: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie-details {
+  margin-top: 10px;
+}
+
+.movie-details h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.movie-details p {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+.movie-details span {
+  font-weight: bold;
+}
